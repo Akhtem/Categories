@@ -1,0 +1,30 @@
+.example-tree {
+  width: 100%;
+  max-height: 800px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+}
+
+.mat-tree-node {
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.mat-tree-node .mat-icon-button {
+  margin-right: 4px;
+}
+
+.example-tree-invisible {
+  display: none;
+}
+
+.large-button {
+  width: 40px; 
+  height: 40px; 
+}
+
+.large-icon {
+  font-size: 24px; 
+}
